@@ -1,0 +1,48 @@
+.companyname{
+    justify-content: center;
+    font-family: 'Yeseva One', cursive;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+img{
+    width: 20em;
+    height: 30em;
+    margin: 10px;
+}
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 4rem;
+}
+
+.contact{
+    justify-content: left;
+    margin: 4rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 3px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
